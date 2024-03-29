@@ -1,0 +1,40 @@
+{
+  "name": "vite-vue-electron",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "nodemon --exec electron . --watch ./ --ext .js,.html,.css,.vue",
+    "app:dist": "electron-builder"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "got": "^11.8.6",
+    "image-type": "^4.1.0",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "electron-win-state": "^1.1.22",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "lodash": "^4.17.21",
+    "randomstring": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "@types/node": "^20.11.30",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "^19.0.8",
+    "electron-builder": "^24.13.3",
+    "vite": "^5.2.0",
+    "node-sass": "^9.0.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "element-plus": "^2.6.2",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1"
+  }
+}
